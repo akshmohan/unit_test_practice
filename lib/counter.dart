@@ -4,4 +4,9 @@ class Counter {
   int get count => _counter;
 
   void increment() => _counter++;
+
+  void decrement() => _counter--;
+
+
+  void reset() => _counter = 0;
 }
